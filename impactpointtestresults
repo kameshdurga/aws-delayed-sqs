@@ -1,0 +1,175 @@
+2-12-10T16:25:13.416-06:00	INSERT
+
+2022-12-10T16:25:13.416-06:00	DynamoDB Record: {
+
+2022-12-10T16:25:13.416-06:00	"ApproximateCreationDateTime": 1670711112.0,
+
+2022-12-10T16:25:13.416-06:00	"Keys": {
+
+2022-12-10T16:25:13.416-06:00	"CustomerID": {
+
+2022-12-10T16:25:13.416-06:00	"N": "123"
+
+2022-12-10T16:25:13.416-06:00	},
+
+2022-12-10T16:25:13.416-06:00	"OrderID": {
+
+2022-12-10T16:25:13.416-06:00	"N": "9"
+
+2022-12-10T16:25:13.416-06:00	}
+
+2022-12-10T16:25:13.416-06:00	},
+
+2022-12-10T16:25:13.416-06:00	"NewImage": {
+
+2022-12-10T16:25:13.416-06:00	"product": {
+
+2022-12-10T16:25:13.416-06:00	"S": "Harry potter book"
+
+2022-12-10T16:25:13.416-06:00	},
+
+2022-12-10T16:25:13.416-06:00	"quantity": {
+
+2022-12-10T16:25:13.416-06:00	"N": "2"
+
+2022-12-10T16:25:13.416-06:00	},
+
+2022-12-10T16:25:13.416-06:00	"CustomerID": {
+
+2022-12-10T16:25:13.416-06:00	"N": "123"
+
+2022-12-10T16:25:13.416-06:00	},
+
+2022-12-10T16:25:13.416-06:00	"OrderID": {
+
+2022-12-10T16:25:13.416-06:00	"N": "9"
+
+2022-12-10T16:25:13.416-06:00	},
+
+2022-12-10T16:25:13.416-06:00	"status": {
+
+2022-12-10T16:25:13.416-06:00	"S": "NEW"
+
+2022-12-10T16:25:13.416-06:00	}
+
+2022-12-10T16:25:13.416-06:00	},
+
+2022-12-10T16:25:13.416-06:00	"SequenceNumber": "8195700000000005807451942",
+
+2022-12-10T16:25:13.416-06:00	"SizeBytes": 87,
+
+2022-12-10T16:25:13.416-06:00	"StreamViewType": "NEW_AND_OLD_IMAGES"
+
+2022-12-10T16:25:13.416-06:00	}
+
+2022-12-10T16:25:13.617-06:00	{"level":"INFO","location":"load:1180","message":"Found credentials in environment variables.","timestamp":"2022-12-10 22:25:13,617+0000","service":"service_undefined","name":"botocore.credentials","xray_trace_id":"1-63950748-fd191e913b2a8870dd7c4141"}
+
+2022-12-10T16:25:14.214-06:00	/opt/python/botocore/client.py:625: FutureWarning: The sqs client is currently using a deprecated endpoint: us-east-2.queue.amazonaws.com. In the next minor version this will be moved to sqs.us-east-2.amazonaws.com. See https://github.com/boto/botocore/issues/2705 for more details.
+
+2022-12-10T16:25:14.214-06:00	warnings.warn(
+
+2022-12-10T16:25:14.537-06:00	sent message succesfully
+
+2022-12-10T16:25:14.538-06:00	ec5712a81a507eb65153dd727e10126b
+
+2022-12-10T16:25:14.538-06:00	INSERT
+
+2022-12-10T16:25:14.538-06:00	DynamoDB Record: {
+
+2022-12-10T16:25:14.538-06:00	"ApproximateCreationDateTime": 1670711112.0,
+
+2022-12-10T16:25:14.538-06:00	"Keys": {
+
+2022-12-10T16:25:14.538-06:00	"CustomerID": {
+
+2022-12-10T16:25:14.538-06:00	"N": "123"
+
+2022-12-10T16:25:14.538-06:00	},
+
+2022-12-10T16:25:14.538-06:00	"OrderID": {
+
+2022-12-10T16:25:14.538-06:00	"N": "10"
+
+2022-12-10T16:25:14.538-06:00	}
+
+2022-12-10T16:25:14.538-06:00	},
+
+2022-12-10T16:25:14.538-06:00	"NewImage": {
+
+2022-12-10T16:25:14.538-06:00	"product": {
+
+2022-12-10T16:25:14.538-06:00	"S": "shoe"
+
+2022-12-10T16:25:14.538-06:00	},
+
+2022-12-10T16:25:14.538-06:00	"quantity": {
+
+2022-12-10T16:25:14.538-06:00	"N": "1"
+
+2022-12-10T16:25:14.538-06:00	},
+
+2022-12-10T16:25:14.538-06:00	"CustomerID": {
+
+2022-12-10T16:25:14.538-06:00	"N": "123"
+
+2022-12-10T16:25:14.538-06:00	},
+
+2022-12-10T16:25:14.538-06:00	"OrderID": {
+
+2022-12-10T16:25:14.538-06:00	"N": "10"
+
+2022-12-10T16:25:14.538-06:00	},
+
+2022-12-10T16:25:14.538-06:00	"status": {
+
+2022-12-10T16:25:14.538-06:00	"S": "NEW"
+
+2022-12-10T16:25:14.538-06:00	}
+
+2022-12-10T16:25:14.538-06:00	},
+
+2022-12-10T16:25:14.538-06:00	"SequenceNumber": "8195800000000005807451966",
+
+2022-12-10T16:25:14.538-06:00	"SizeBytes": 74,
+
+2022-12-10T16:25:14.538-06:00	"StreamViewType": "NEW_AND_OLD_IMAGES"
+
+2022-12-10T16:25:14.538-06:00	}
+
+2022-12-10T16:25:14.778-06:00	sent message succesfully
+
+2022-12-10T16:25:14.815-06:00	
+
+
+
+After 10 mins
+
+2022-12-10T16:35:36.445-06:00	Number of messages received: 1
+
+2022-12-10T16:35:36.446-06:00	Message body: {'ApproximateCreationDateTime': 1670711112.0, 'Keys': {'CustomerID': {'N': '123'}, 'OrderID': {'N': '9'}}, 'NewImage': {'product': {'S': 'Harry potter book'}, 'quantity': {'N': '2'}, 'CustomerID': {'N': '123'}, 'OrderID': {'N': '9'}, 'status': {'S': 'NEW'}}, 'SequenceNumber': '8195700000000005807451942', 'SizeBytes': 87, 'StreamViewType': 'NEW_AND_OLD_IMAGES'}
+
+2022-12-10T16:35:36.446-06:00	Receipt Handle: AQEBcMaLlO0rLSBHNuJhG8ABfXrDG5wpZoKDj6iCZmu7KKuTIrQZM4oMXUCscgr4Gk9F06Idm2bNVWjOeciNTvlTchdrxwrvvXqKk62L9yjBntzJMpQYxX5ar7biIQmAo4KlkA2riGx1jyIs5eMqAJiYsvmxgid8NlMfNLq+rdSoSXkeeRa5gvyMcswjezVywh0dEiU/sn1+NtIbsN/2yNfRI0YrxfDk0TiW3/7FX7cdESPOFiP1T5TCxYjMuA/6NDSlebdpqaPQoaguGZ/ADXBWDAE67dyfdc656z8BTB7SLdVYCqRzaAS9DkTRQXFk8BA8fbpk66Vi4lRqm91u1p1GyNdM80vBmbPLFmV79wuDgimKkBXX+t5qtQ+8RrfYT/kwO6ztBa9yAMrUhDoaHMVsRf023lMmWw+SjE7qkvDOrbK0ECnWgOolFDi8O6NTnt0q
+
+2022-12-10T16:35:36.643-06:00	delete_message {'ResponseMetadata': {'RequestId': '334018d1-7dbc-5c38-8422-44de76442b94', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '334018d1-7dbc-5c38-8422-44de76442b94', 'x-amzn-trace-id': 'Root=1-639509b8-3cd2d4d17e47223c232eb3d1;Parent=0000000000000000;Sampled=0', 'date': 'Sat, 10 Dec 2022 22:35:36 GMT', 'content-type': 'text/xml', 'content-length': '215'}, 'RetryAttempts': 0}}
+
+2022-12-10T16:35:36.649-06:00	END RequestId: 9c1f4db0-daa4-4aa7-ba11-806e655a5307
+
+2022-12-10T16:35:36.649-06:00	REPORT RequestId: 9c1f4db0-daa4-4aa7-ba11-806e655a5307 Duration: 219.54 ms Billed Duration: 220 ms Memory Size: 128 MB Max Memory Used: 70 MB
+
+2022-12-10T16:36:36.314-06:00	START RequestId: a4f44da6-af8c-4e82-a53a-89c7d3992d8e Version: $LATEST
+
+2022-12-10T16:36:36.315-06:00	{"level":"INFO","location":"handler:18","message":"Received message from SQS","timestamp":"2022-12-10 22:36:36,315+0000","service":"service_undefined","name":"service_undefined","xray_trace_id":"1-639509f4-1e9afff9630622f246e9044e"}
+
+2022-12-10T16:36:36.315-06:00	queue_url is https://sqs.us-east-2.amazonaws.com/754404958569/PythonCdkStack-demodelayqueue7EDA4A2F-B6h8uJSqSHd0
+
+2022-12-10T16:36:36.349-06:00	Number of messages received: 1
+
+2022-12-10T16:36:36.349-06:00	Message body: {'ApproximateCreationDateTime': 1670711112.0, 'Keys': {'CustomerID': {'N': '123'}, 'OrderID': {'N': '10'}}, 'NewImage': {'product': {'S': 'shoe'}, 'quantity': {'N': '1'}, 'CustomerID': {'N': '123'}, 'OrderID': {'N': '10'}, 'status': {'S': 'NEW'}}, 'SequenceNumber': '8195800000000005807451966', 'SizeBytes': 74, 'StreamViewType': 'NEW_AND_OLD_IMAGES'}
+
+2022-12-10T16:36:36.349-06:00	Receipt Handle: AQEBIJgkNeGaQEOpnO+ExTL3EuVcAaPNDy5A1+yxgrGfNbJJE2NkNI+frFuQvdB1nj+fpWnAxLMI6jwnpLmRqoXywsPV4VG2/LyfEiLyn5hw4aNfcBuxkP6JXsmnl7pNA5G2n6RdCDn9KVsgGtWhXBueoGoKApdtntw55jjkmdqnHVQH7JEhrikBGbT++ahUkFLTMRktZX6e0+do4SVvQoOoLtSTAq5SgOQh8avdmUzboShlGTyMzpvZVkK+yTg7Tqa0M2R6v2z47nO90/5jdAWT89vPGFo1dpBbUUJJdG9GAVy558q+wDJ5ve2YBw7EYrO3oF57DH1UoEeap0HrbH5oXYQsaiCqfpiu2hnC/UYigwpisFh4H5ymrwTrQpnraq47UFgga12cl/nYDGhywvPS+Su0BE1vABh5Pb3GBa+ehtIbo60hDac9Dgsag+Ete0gY
+
+2022-12-10T16:36:36.370-06:00	delete_message {'ResponseMetadata': {'RequestId': 'fdc46dae-89c5-501c-80ae-31a185f1a7b0', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': 'fdc46dae-89c5-501c-80ae-31a185f1a7b0', 'x-amzn-trace-id': 'Root=1-639509f4-1e9afff9630622f246e9044e;Parent=0000000000000000;Sampled=0', 'date': 'Sat, 10 Dec 2022 22:36:36 GMT', 'content-type': 'text/xml', 'content-length': '215'}, 'RetryAttempts': 0}}
+
+2022-12-10T16:36:36.389-06:00	END RequestId: a4f44da6-af8c-4e82-a53a-89c7d3992d8e
+
+2022-12-10T16:36:36.389-06:00	REPORT RequestId: a4f44da6-af8c-4e82-a53a-89

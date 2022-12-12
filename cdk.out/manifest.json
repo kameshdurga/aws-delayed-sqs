@@ -1,0 +1,148 @@
+{
+  "version": "21.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "PythonCdkStack.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "PythonCdkStack.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "PythonCdkStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/us-east-2",
+      "properties": {
+        "templateFile": "PythonCdkStack.template.json",
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-us-east-2",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-us-east-2",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-us-east-2/9c1ad782114813cd51d8b69dd1ae3b9dbb04a94ee33502eeb74fcbf3635f277f.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "PythonCdkStack.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-us-east-2",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "PythonCdkStack.assets"
+      ],
+      "metadata": {
+        "/PythonCdkStack/demo_table/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "demotable002BE91A"
+          }
+        ],
+        "/PythonCdkStack/AppStart/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AppStartServiceRoleDF1DFCB0"
+          }
+        ],
+        "/PythonCdkStack/AppStart/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AppStartServiceRoleDefaultPolicyC37B9F98"
+          }
+        ],
+        "/PythonCdkStack/AppStart/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AppStartF34C0169"
+          }
+        ],
+        "/PythonCdkStack/demo_delay_queue/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "demodelayqueue7EDA4A2F"
+          }
+        ],
+        "/PythonCdkStack/AppProducer/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AppProducerServiceRoleEBC4D031"
+          }
+        ],
+        "/PythonCdkStack/AppProducer/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AppProducerServiceRoleDefaultPolicy9A0CB81D"
+          }
+        ],
+        "/PythonCdkStack/AppProducer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AppProducer62B29C70"
+          }
+        ],
+        "/PythonCdkStack/AppProducer/DynamoDBEventSource:PythonCdkStackdemotableF5D37126/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AppProducerDynamoDBEventSourcePythonCdkStackdemotableF5D37126A66B9016"
+          }
+        ],
+        "/PythonCdkStack/AppConsumer/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AppConsumerServiceRole096F5361"
+          }
+        ],
+        "/PythonCdkStack/AppConsumer/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AppConsumerServiceRoleDefaultPolicyC99F668B"
+          }
+        ],
+        "/PythonCdkStack/AppConsumer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AppConsumer3A018312"
+          }
+        ],
+        "/PythonCdkStack/AppConsumer/AwsEventsLambdaInvokePermission-1": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AppConsumerAwsEventsLambdaInvokePermission1702B0762"
+          }
+        ],
+        "/PythonCdkStack/eventbridge-delay-sqs-lambda/EventsRule/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "eventbridgedelaysqslambdaEventsRule72C623E6"
+          }
+        ],
+        "/PythonCdkStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/PythonCdkStack/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/PythonCdkStack/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "PythonCdkStack"
+    }
+  }
+}
